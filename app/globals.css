@@ -426,7 +426,7 @@ strong { color: var(--ink); font-weight: 700; }
 }
 
 @media (max-width: 560px) {
-  .lead-overlay { padding: 10px; align-items: flex-end; }
+  .lead-overlay { padding: 10px; align-items: flex-start; }
   .cc-win { max-width: 100%; height: min(500px, 84vh); }
   .cc-line { font-size: .74rem; }
 }
