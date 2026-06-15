@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Freela de Elite | Venda landing pages feitas por IA",
+  title: "Freela de Elite",
   description:
     "Sistema pronto que gera a página, encontra o cliente e fecha a venda. Primeira venda em até 14 dias, sem aparecer, sem reels, sem ligação.",
 };

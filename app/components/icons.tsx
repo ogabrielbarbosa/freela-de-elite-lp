@@ -42,6 +42,24 @@ export function Play() {
   );
 }
 
+export function Prompt({ size = 15 }: { size?: number }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M5 7l5 5-5 5" />
+      <path d="M13 17h6" />
+    </svg>
+  );
+}
+
 export function VerifiedBadge() {
   return (
     <svg

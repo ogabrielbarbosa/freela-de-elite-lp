@@ -6,6 +6,7 @@ import {
   ChevronRight,
   Github,
   Instagram,
+  Prompt,
   VerifyMark,
   Whatsapp,
   XMark,
@@ -244,7 +245,7 @@ export default function Home() {
       <header className="topbar">
         <div className="container">
           <span className="wordmark">
-            <span className="glyph">{">_"}</span> Freela de Elite
+            <span className="glyph"><Prompt /></span> Freela de Elite
           </span>
           <a className="cta" href="#preco">
             ENTRAR NA LISTA · R$97
